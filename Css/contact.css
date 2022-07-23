@@ -1,0 +1,54 @@
+
+
+/*3.12-contact section*/
+.contact-header{
+    overflow: hidden;
+    padding: 0 60px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.contact-item{
+    float: left;
+    width: 20%;
+    margin: 0 90px;
+}
+
+.contact-item i{
+    color: var(--maincolor);
+    font-size: 40px;
+}
+.contact-item-title{
+    margin: 14px 0;
+}
+.contact-footer-item{
+    overflow: hidden;
+    text-align: center;
+}
+#name,
+#email{
+    padding: 10px;
+    width: 40%;
+    border: none;
+    margin: 10px 0;
+    background: rgba(192, 192, 192, 0.19);
+}
+#subject,
+#message{
+    padding: 10px;
+    border: none;
+    margin: 10px 150px;
+    background: rgba(192, 192, 192, 0.19);
+    width: 80.5%;
+
+}
+#message{
+    padding: 60px 10px;
+    margin-bottom: 50px;
+}
+.contact-footer-link{
+    background: var(--maincolor);
+    color: var(--whitecolor);
+    padding: 10px;
+    margin-left: 46%;
+    border-radius: 5px;
+}
